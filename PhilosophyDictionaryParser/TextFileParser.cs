@@ -6,7 +6,7 @@ namespace PhilosophyDictionaryParser
 {
     public class TextFileParser
     {
-        public static Dictionary<string, string> DictionaryPhilosophy { get; set; } = new Dictionary<string, string>();
+        public Dictionary<string, string> DictionaryPhilosophy { get; set; }
         private string pathToFile = @"DictionaryResourse.txt";
 
         public TextFileParser()
